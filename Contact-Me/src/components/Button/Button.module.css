@@ -30,7 +30,8 @@
 @media screen and (max-width: 768px) {
   .primary_btn,
   .outline_btn {
-    min-width: auto;
+    min-width:auto;
     width: 100%; 
+    justify-items: end;
   }
 }

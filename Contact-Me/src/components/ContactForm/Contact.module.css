@@ -39,12 +39,14 @@
 /* Media Query */
 @media screen and (max-width: 768px) {
   .container {
-    margin-top: 50px; /* Adjust margin-top for smaller screens */
+    flex-direction: column;
+    margin: 0 auto;
   }
 
   .form_control label {
-    top: -10px; /* Adjust label position for smaller screens */
-    font-size: 12px; /* Adjust label font-size for smaller screens */
+    top: -10px;
+    font-size: 12px;
+    margin: 0 auto;
   }
 }
 
@@ -55,4 +57,5 @@
   left: 10px;
   background-color: white;
   padding: 0 10px;
+  margin: 0 auto;
 }
